@@ -4,12 +4,6 @@
 
 ## 一段简要说明
 
-UI tests with a stubbed server are [highly reliable and faster](../testing-strategy/component-vs-integration-vs-e2e-testing.zh.md#ui-integration-tests)<!--TODO: check that the deeplinkl works--> in comparison to full E2E tests.
-
-Full E2E tests still provide the highest possible confidence, but at a high cost: being brittle, potentially unreliable, and slow.
-
-We can still achieve high confidence for the front-end by using lower-cost UI integration tests and saving higher cost E2E tests for the back-end.
-
 使用带有存根服务器的 UI 测试相对于完整的 E2E 测试来说，不仅更加[可靠，而且速度更快](../testing-strategy/component-vs-integration-vs-e2e-testing.zh.md#UI-集成测试)。<!--TODO: 检查深链接是否有效-->
 
 尽管完整的 E2E 测试仍然提供了最高的信心水平，但代价很高：易碎、潜在不可靠且速度较慢。
